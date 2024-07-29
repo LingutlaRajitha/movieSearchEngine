@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+PL:wght@100..400&display=swap');
+/*body{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/011/598/289/original/blank-smartphone-with-popcorn-film-strip-clapperboard-on-blue-background-online-streaming-movie-concept-iluustration-free-vector.jpg);
+}*/
+.form-control, #button-addon2, h2{
+    font-family: "Playwrite NG Modern", cursive;
+}
+#movie-container{
+   width:80%;
+   margin:15px auto;
+   border-radius: 10px;
+   display:flex;
+   flex-wrap:wrap;
+}
+.card{
+    width: calc(25% - 4px - 30px - 21px);
+    border:2px solid rgb(7, 7, 7);
+    margin:15px;
+    box-shadow: 3px 3px 1px rgb(180, 177, 177);
+}
+.movie-thumbnail{
+    width:100%;
+    height:250px;
+}
+.card-body{
+    background-color:rgb(240, 231, 231);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.spinner-border {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+@media (max-width: 600px){
+    .movie-container{
+        width: calc(100% - 4px - 16px );
+    }
+   .movie-movie{
+    width:100%;
+    margin:5px auto;
+   }
+   
+}
+
+@media (min-width: 601px){
+    .movie-container{
+        width: calc(50% - 4px - 16px );
+    }
+    .movie-movie{
+        margin-left: 50px;
+        margin-right:50px;
+    }
+
+}
+
+@media (min-width: 901px){
+    .movie-container{
+        width: calc(33.33% - 4px - 16px );
+    }
+    .movie-movie{
+        margin-left: 100px;
+        margin-right:100px;
+    }
+}
+
+@media (min-width: 1201px){
+    .movie-container{
+        width: calc(25% - 4px - 16px );
+    }
+    .movie-movie{
+        margin-left: 150px;
+        margin-right:150px;
+    }
+}
